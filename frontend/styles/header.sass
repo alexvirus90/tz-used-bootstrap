@@ -1,0 +1,29 @@
+$Normal: 400
+$Bold: 700
+$Extra-bold: 800
+$white: #fff
+$black: #000
+
+.navbar-001
+  background-color: #212121
+  .navbar-logo
+    color: $white
+    font-weight: $Extra-bold
+    font-size: 35px
+    text-decoration: none
+    text-transform: uppercase
+
+  .navbar-menu
+    cursor: pointer
+      //&-drop:focus, &-drop:hover
+      //  background-color: #121212
+    li
+      a
+        color: $white
+        outline: none
+
+    .dropdown-menu
+      a
+        color: $black
+      &:focus
+        outline: none
